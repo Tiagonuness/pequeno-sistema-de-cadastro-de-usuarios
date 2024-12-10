@@ -17,7 +17,7 @@ try {
 	
 	echo "</table>";
 	
-	echo $consulta->rowCount() . " Registror Exibidos";
+	echo $consulta->rowCount() . " Registros Exibidos";
 	
 } catch(PDOException $erro) {
 	
